@@ -1,9 +1,9 @@
 # Python-installation-in-Linux-server
-Login as a root user
+##Login as a root user
 
 sudo su -
 
-Install the development group
+##Install the development group
 
 yum groupinstall development -y
 
@@ -27,15 +27,15 @@ python --version
 
 
 
-Install PIP
+##Install PIP
 
 PIP is a package manager for Python packages, or modules if you like. Note: If you have Python version 3.4 or later, PIP is included by default.
 
- Download the PIP file
+ ##Download the PIP file
 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
  
- Install PIP by using the below command
+ ##Install PIP by using the below command
 
 python3 get-pip.py
  
